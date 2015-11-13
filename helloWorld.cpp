@@ -1,7 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+void Hello()
+{
   cout << "Hello World" << endl;
+}
+
+int main()
+{
+  Hello();
   return 0;
 }
